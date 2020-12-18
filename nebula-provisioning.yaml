@@ -1,0 +1,7 @@
+---
+name: Provision OpenNebula
+hosts: nebula
+become: true
+roles:
+  - role: nebula
+    tags: nebula
